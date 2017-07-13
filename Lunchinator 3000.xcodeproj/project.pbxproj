@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A1A77951F15CB820013BD8F /* RestaurantDetailsViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A77941F15CB820013BD8F /* RestaurantDetailsViewConroller.swift */; };
+		1A1A77991F1690A50013BD8F /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A77981F1690A50013BD8F /* ReviewViewController.swift */; };
+		1A1A779B1F1692390013BD8F /* RestaurantInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A779A1F1692390013BD8F /* RestaurantInfoViewController.swift */; };
+		1A1A779D1F1694020013BD8F /* ReviewsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A779C1F1694020013BD8F /* ReviewsPageViewController.swift */; };
+		1A1A77D91F172F560013BD8F /* Retrolux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A1A77D81F172F560013BD8F /* Retrolux.framework */; };
+		1A1A77DE1F174FFE0013BD8F /* NetworkingClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1A77DD1F174FFE0013BD8F /* NetworkingClasses.swift */; };
+		1A64EC021F15B4B60074CFB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A64EC011F15B4B60074CFB1 /* AppDelegate.swift */; };
+		1A64EC041F15B4B70074CFB1 /* StartPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A64EC031F15B4B70074CFB1 /* StartPageViewController.swift */; };
+		1A64EC071F15B4B70074CFB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A64EC051F15B4B70074CFB1 /* Main.storyboard */; };
+		1A64EC0A1F15B4B70074CFB1 /* Lunchinator_3000.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1A64EC081F15B4B70074CFB1 /* Lunchinator_3000.xcdatamodeld */; };
+		1A64EC0C1F15B4B70074CFB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A64EC0B1F15B4B70074CFB1 /* Assets.xcassets */; };
+		1A64EC0F1F15B4B70074CFB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A64EC0D1F15B4B70074CFB1 /* LaunchScreen.storyboard */; };
+		1A64EC1A1F15B4B70074CFB1 /* Lunchinator_3000Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A64EC191F15B4B70074CFB1 /* Lunchinator_3000Tests.swift */; };
+		1A64EC251F15C2740074CFB1 /* BrowseRestaurantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A64EC241F15C2740074CFB1 /* BrowseRestaurantsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A64EC161F15B4B70074CFB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A64EBF61F15B4B60074CFB1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A64EBFD1F15B4B60074CFB1;
+			remoteInfo = "Lunchinator 3000";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A1A77941F15CB820013BD8F /* RestaurantDetailsViewConroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDetailsViewConroller.swift; sourceTree = "<group>"; };
+		1A1A77981F1690A50013BD8F /* ReviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		1A1A779A1F1692390013BD8F /* RestaurantInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantInfoViewController.swift; sourceTree = "<group>"; };
+		1A1A779C1F1694020013BD8F /* ReviewsPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewsPageViewController.swift; sourceTree = "<group>"; };
+		1A1A77D81F172F560013BD8F /* Retrolux.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Retrolux.framework; path = Carthage/Build/iOS/Retrolux.framework; sourceTree = "<group>"; };
+		1A1A77DD1F174FFE0013BD8F /* NetworkingClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingClasses.swift; sourceTree = "<group>"; };
+		1A64EBFE1F15B4B60074CFB1 /* Lunchinator 3000.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lunchinator 3000.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A64EC011F15B4B60074CFB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A64EC031F15B4B70074CFB1 /* StartPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartPageViewController.swift; sourceTree = "<group>"; };
+		1A64EC061F15B4B70074CFB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A64EC091F15B4B70074CFB1 /* Lunchinator_3000.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Lunchinator_3000.xcdatamodel; sourceTree = "<group>"; };
+		1A64EC0B1F15B4B70074CFB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A64EC0E1F15B4B70074CFB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A64EC101F15B4B70074CFB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A64EC151F15B4B70074CFB1 /* Lunchinator 3000Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lunchinator 3000Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A64EC191F15B4B70074CFB1 /* Lunchinator_3000Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lunchinator_3000Tests.swift; sourceTree = "<group>"; };
+		1A64EC1B1F15B4B70074CFB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A64EC241F15C2740074CFB1 /* BrowseRestaurantsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseRestaurantsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A64EBFB1F15B4B60074CFB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1A77D91F172F560013BD8F /* Retrolux.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A64EC121F15B4B70074CFB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A1A77D71F172F550013BD8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A1A77D81F172F560013BD8F /* Retrolux.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A64EBF51F15B4B60074CFB1 = {
+			isa = PBXGroup;
+			children = (
+				1A64EC001F15B4B60074CFB1 /* Lunchinator 3000 */,
+				1A64EC181F15B4B70074CFB1 /* Lunchinator 3000Tests */,
+				1A64EBFF1F15B4B60074CFB1 /* Products */,
+				1A1A77D71F172F550013BD8F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A64EBFF1F15B4B60074CFB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A64EBFE1F15B4B60074CFB1 /* Lunchinator 3000.app */,
+				1A64EC151F15B4B70074CFB1 /* Lunchinator 3000Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A64EC001F15B4B60074CFB1 /* Lunchinator 3000 */ = {
+			isa = PBXGroup;
+			children = (
+				1A64EC011F15B4B60074CFB1 /* AppDelegate.swift */,
+				1A64EC031F15B4B70074CFB1 /* StartPageViewController.swift */,
+				1A64EC241F15C2740074CFB1 /* BrowseRestaurantsViewController.swift */,
+				1A1A77941F15CB820013BD8F /* RestaurantDetailsViewConroller.swift */,
+				1A1A77981F1690A50013BD8F /* ReviewViewController.swift */,
+				1A1A779A1F1692390013BD8F /* RestaurantInfoViewController.swift */,
+				1A1A779C1F1694020013BD8F /* ReviewsPageViewController.swift */,
+				1A1A77DD1F174FFE0013BD8F /* NetworkingClasses.swift */,
+				1A64EC051F15B4B70074CFB1 /* Main.storyboard */,
+				1A64EC0B1F15B4B70074CFB1 /* Assets.xcassets */,
+				1A64EC0D1F15B4B70074CFB1 /* LaunchScreen.storyboard */,
+				1A64EC101F15B4B70074CFB1 /* Info.plist */,
+				1A64EC081F15B4B70074CFB1 /* Lunchinator_3000.xcdatamodeld */,
+			);
+			path = "Lunchinator 3000";
+			sourceTree = "<group>";
+		};
+		1A64EC181F15B4B70074CFB1 /* Lunchinator 3000Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1A64EC191F15B4B70074CFB1 /* Lunchinator_3000Tests.swift */,
+				1A64EC1B1F15B4B70074CFB1 /* Info.plist */,
+			);
+			path = "Lunchinator 3000Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A64EBFD1F15B4B60074CFB1 /* Lunchinator 3000 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A64EC1E1F15B4B70074CFB1 /* Build configuration list for PBXNativeTarget "Lunchinator 3000" */;
+			buildPhases = (
+				1A64EBFA1F15B4B60074CFB1 /* Sources */,
+				1A64EBFB1F15B4B60074CFB1 /* Frameworks */,
+				1A64EBFC1F15B4B60074CFB1 /* Resources */,
+				1A1A77DA1F172F5D0013BD8F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lunchinator 3000";
+			productName = "Lunchinator 3000";
+			productReference = 1A64EBFE1F15B4B60074CFB1 /* Lunchinator 3000.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A64EC141F15B4B70074CFB1 /* Lunchinator 3000Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A64EC211F15B4B70074CFB1 /* Build configuration list for PBXNativeTarget "Lunchinator 3000Tests" */;
+			buildPhases = (
+				1A64EC111F15B4B70074CFB1 /* Sources */,
+				1A64EC121F15B4B70074CFB1 /* Frameworks */,
+				1A64EC131F15B4B70074CFB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A64EC171F15B4B70074CFB1 /* PBXTargetDependency */,
+			);
+			name = "Lunchinator 3000Tests";
+			productName = "Lunchinator 3000Tests";
+			productReference = 1A64EC151F15B4B70074CFB1 /* Lunchinator 3000Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A64EBF61F15B4B60074CFB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "David Ulbrich";
+				TargetAttributes = {
+					1A64EBFD1F15B4B60074CFB1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZR6788V7YF;
+						ProvisioningStyle = Automatic;
+					};
+					1A64EC141F15B4B70074CFB1 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A64EBFD1F15B4B60074CFB1;
+					};
+				};
+			};
+			buildConfigurationList = 1A64EBF91F15B4B60074CFB1 /* Build configuration list for PBXProject "Lunchinator 3000" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A64EBF51F15B4B60074CFB1;
+			productRefGroup = 1A64EBFF1F15B4B60074CFB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A64EBFD1F15B4B60074CFB1 /* Lunchinator 3000 */,
+				1A64EC141F15B4B70074CFB1 /* Lunchinator 3000Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A64EBFC1F15B4B60074CFB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A64EC0F1F15B4B70074CFB1 /* LaunchScreen.storyboard in Resources */,
+				1A64EC0C1F15B4B70074CFB1 /* Assets.xcassets in Resources */,
+				1A64EC071F15B4B70074CFB1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A64EC131F15B4B70074CFB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A1A77DA1F172F5D0013BD8F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Retrolux.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A64EBFA1F15B4B60074CFB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A64EC251F15C2740074CFB1 /* BrowseRestaurantsViewController.swift in Sources */,
+				1A1A779B1F1692390013BD8F /* RestaurantInfoViewController.swift in Sources */,
+				1A1A77951F15CB820013BD8F /* RestaurantDetailsViewConroller.swift in Sources */,
+				1A1A77DE1F174FFE0013BD8F /* NetworkingClasses.swift in Sources */,
+				1A1A779D1F1694020013BD8F /* ReviewsPageViewController.swift in Sources */,
+				1A64EC0A1F15B4B70074CFB1 /* Lunchinator_3000.xcdatamodeld in Sources */,
+				1A64EC041F15B4B70074CFB1 /* StartPageViewController.swift in Sources */,
+				1A1A77991F1690A50013BD8F /* ReviewViewController.swift in Sources */,
+				1A64EC021F15B4B60074CFB1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A64EC111F15B4B70074CFB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A64EC1A1F15B4B70074CFB1 /* Lunchinator_3000Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A64EC171F15B4B70074CFB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A64EBFD1F15B4B60074CFB1 /* Lunchinator 3000 */;
+			targetProxy = 1A64EC161F15B4B70074CFB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A64EC051F15B4B70074CFB1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A64EC061F15B4B70074CFB1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A64EC0D1F15B4B70074CFB1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A64EC0E1F15B4B70074CFB1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A64EC1C1F15B4B70074CFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A64EC1D1F15B4B70074CFB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A64EC1F1F15B4B70074CFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZR6788V7YF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Lunchinator 3000/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ulbrichpro.Lunchinator-3000";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1A64EC201F15B4B70074CFB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZR6788V7YF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Lunchinator 3000/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ulbrichpro.Lunchinator-3000";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1A64EC221F15B4B70074CFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lunchinator 3000Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ulbrichpro.Lunchinator-3000Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lunchinator 3000.app/Lunchinator 3000";
+			};
+			name = Debug;
+		};
+		1A64EC231F15B4B70074CFB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lunchinator 3000Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ulbrichpro.Lunchinator-3000Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lunchinator 3000.app/Lunchinator 3000";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A64EBF91F15B4B60074CFB1 /* Build configuration list for PBXProject "Lunchinator 3000" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A64EC1C1F15B4B70074CFB1 /* Debug */,
+				1A64EC1D1F15B4B70074CFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A64EC1E1F15B4B70074CFB1 /* Build configuration list for PBXNativeTarget "Lunchinator 3000" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A64EC1F1F15B4B70074CFB1 /* Debug */,
+				1A64EC201F15B4B70074CFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A64EC211F15B4B70074CFB1 /* Build configuration list for PBXNativeTarget "Lunchinator 3000Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A64EC221F15B4B70074CFB1 /* Debug */,
+				1A64EC231F15B4B70074CFB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1A64EC081F15B4B70074CFB1 /* Lunchinator_3000.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1A64EC091F15B4B70074CFB1 /* Lunchinator_3000.xcdatamodel */,
+			);
+			currentVersion = 1A64EC091F15B4B70074CFB1 /* Lunchinator_3000.xcdatamodel */;
+			path = Lunchinator_3000.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1A64EBF61F15B4B60074CFB1 /* Project object */;
+}
